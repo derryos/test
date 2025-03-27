@@ -35,16 +35,20 @@ metadata:
   name: s3-operator
   title: s3-operator
   description: This is the CP skates AWS S3 bucket operator
-  annotations:
-      github.com/project-slug: scylla/s3-operator
-      jira/project-key: SCYLLA
-      jira/component: S3 Cloud Operator
-      backstage.io/techdocs-ref: url:https://ghe.megaleo.com/mathew-fleisch/backstage-spike/tree/master/packages/techdocs-cli/src/example-docs
-      jfrog-artifactory/image-name: scylla/s3-operator
   links:
     - url: https://ghe.megaleo.com/scylla/s3-operator
       title: GHE Repo
       icon: github
+    - url: https://grafana.produs.us.wdpharos.io/d/bc9df0b9-4069-485d-a9c0-7ba98f368016/sre-3-s3-operator-component-health?orgId=1
+      title: S3 operator Dashboard
+      icon: dashboard
+      type: admin-dashboard
+  annotations:
+    github.com/project-slug: scylla/s3-operator
+    jira/project-key: SCYLLA
+    jira/component: S3 Cloud Operator
+    backstage.io/techdocs-ref: url:https://ghe.megaleo.com/mathew-fleisch/backstage-spike/tree/master/packages/techdocs-cli/src/example-docs
+    jfrog-artifactory/image-name: scylla/s3-operator
 spec:
   type: service
   lifecycle: production
