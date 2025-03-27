@@ -22,6 +22,14 @@ spec:
   memberOf: [Skates]
 ---
 apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: cloud-platform-20-domain
+  description: Cloud Platform 2.0 domain
+spec:
+  owner: Skates
+---
+apiVersion: backstage.io/v1alpha1
 metadata:
   name: cloud-platform-20-system
   title: Cloud Platform 2.0
