@@ -36,7 +36,6 @@ metadata:
   title: s3-operator
   description: This is the CP skates AWS S3 bucket operator
   annotations:
-      pagerduty.com/integration-key: 1299cf0a6c8a4000d0101e98f7b20798
       github.com/project-slug: scylla/s3-operator
       jira/project-key: SCYLLA
       jira/component: S3 Cloud Operator
