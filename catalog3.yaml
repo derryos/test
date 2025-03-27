@@ -1,0 +1,22 @@
+---
+apiVersion: backstage.io/v1alpha1
+metadata:
+  name: platform-services
+  title: platform-services
+  description: This is the CP skates platform-services repo
+  links:
+    - url: https://ghe.megaleo.com/scylla/platform-services
+      title: GHE Repo
+      icon: github
+  annotations:
+    github.com/project-slug: scylla/platform-services
+    jira/project-key: SCYLLA
+    backstage.io/techdocs-ref: url:https://ghe.megaleo.com/mathew-fleisch/backstage-spike/tree/master/packages/techdocs-cli/src/example-docs
+spec:
+  type: service
+  lifecycle: production
+  owner: Skates
+  system: cloud-platform-20-system
+kind: Component
+---
+---
