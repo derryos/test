@@ -2,8 +2,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: alchemists
-  title: alchemists
+  name: Skates
+  title: Skates
 spec:
   type: team
   profile:
@@ -19,7 +19,7 @@ spec:
     displayName: Derry O Sullivan
     email: derry.osullivan@workday.com
     picture: https://api.dicebear.com/9.x/adventurer/svg?seed=Trouble&backgroundColor=transparent
-  memberOf: [alchemists]
+  memberOf: [Skates]
 ---
 apiVersion: backstage.io/v1alpha1
 metadata:
@@ -27,7 +27,7 @@ metadata:
   title: cloud platform 2
 spec:
   owner: group:alchemists
-  domain: operation-service-domain
+  domain: cloud-platform-20-domain
 kind: System
 ---
 apiVersion: backstage.io/v1alpha1
@@ -40,6 +40,7 @@ metadata:
       github.com/project-slug: scylla/s3-operator
       jira/project-key: SCYLLA
       jira/component: S3 Cloud Operator
+      backstage.io/techdocs-ref: url:https://ghe.megaleo.com/scylla/s3-operator/tree/main/docs
   links:
     - url: https://ghe.megaleo.com/scylla/s3-operator
       title: GHE Repo
@@ -47,7 +48,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: alchemists
-  system: operation-orchestration-system
+  owner: Skates
+  system: cloud-platform-20-system
 kind: Component
 ---
