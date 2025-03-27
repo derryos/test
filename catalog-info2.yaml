@@ -26,7 +26,7 @@ metadata:
   name: cloud-platform-20-system
   title: cloud platform 2
 spec:
-  owner: group:alchemists
+  owner: group:skates
   domain: cloud-platform-20-domain
 kind: System
 ---
