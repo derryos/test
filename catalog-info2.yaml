@@ -40,7 +40,7 @@ metadata:
       github.com/project-slug: scylla/s3-operator
       jira/project-key: SCYLLA
       jira/component: S3 Cloud Operator
-      backstage.io/techdocs-ref: url:https://ghe.megaleo.com/scylla/scylla-istio/tree/master/docs/runbooks
+      backstage.io/techdocs-ref: url:https://ghe.megaleo.com/mathew-fleisch/backstage-spike/tree/master/packages/techdocs-cli/src/example-docs
   links:
     - url: https://ghe.megaleo.com/scylla/s3-operator
       title: GHE Repo
